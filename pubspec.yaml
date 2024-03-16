@@ -1,0 +1,43 @@
+name: webex
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  responsive_builder: ^0.7.0
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 3.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+  uses-material-design: true
+  
+  fonts: 
+    - family: Plus_Jakarta_Sans
+      fonts: 
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Medium.ttf
+    - family: Plus_Jakarta_Sans
+      fonts: 
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Bold.ttf
+    - family: Plus_Jakarta_Sans
+      fonts: 
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-Regular.ttf
+    - family: Plus_Jakarta_Sans
+      fonts: 
+        - asset: assets/fonts/Plus_Jakarta_Sans/static/PlusJakartaSans-SemiBold.ttf
+    - family: Urbanist 
+      fonts: 
+        - asset: assets/fonts/Urbanist/static/Urbanist-Bold.ttf
+    - family: Urbanist 
+      fonts: 
+        - asset: assets/fonts/Urbanist/static/Urbanist-ExtraBold.ttf
